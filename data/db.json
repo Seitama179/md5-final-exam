@@ -1,0 +1,143 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "productCode": "PROD-0001",
+      "name": "Omega",
+      "categoryId": "1",
+      "price": 598000,
+      "quantity": 1000,
+      "dateAdded": "2024-09-28",
+      "description": "Thuốc"
+    },
+    {
+      "id": "2",
+      "productCode": "PROD-0002",
+      "name": "Máy đo huyết áp",
+      "categoryId": "4",
+      "price": 1350000,
+      "quantity": 50,
+      "dateAdded": "2024-09-27",
+      "description": "Máy"
+    },
+    {
+      "id": "3",
+      "productCode": "PROD-0003",
+      "name": "Efferalgan",
+      "categoryId": "3",
+      "price": 30000,
+      "quantity": 65,
+      "dateAdded": "2024-09-30",
+      "description": "Thuốc"
+    },
+    {
+      "id": "4",
+      "productCode": "PROD-0004",
+      "name": "Panadol Extra",
+      "categoryId": "3",
+      "price": 20000,
+      "quantity": 500,
+      "dateAdded": "2024-09-25",
+      "description": "Thuốc"
+    },
+    {
+      "id": "5",
+      "productCode": "PROD-1111",
+      "name": "AAAA",
+      "categoryId": "1",
+      "price": 150000,
+      "quantity": 160,
+      "dateAdded": "2024-09-27",
+      "description": ""
+    },
+    {
+      "id": "6",
+      "productCode": "PROD-0009",
+      "name": "AAA",
+      "categoryId": "4",
+      "price": 10000000,
+      "quantity": 5,
+      "dateAdded": "2024-09-29",
+      "description": "máy"
+    },
+    {
+      "id": "7",
+      "productCode": "PROD-0005",
+      "name": "Aspirin",
+      "categoryId": "3",
+      "price": 30000,
+      "quantity": 200,
+      "dateAdded": "2024-09-29",
+      "description": "thuốc"
+    },
+    {
+      "id": "8",
+      "productCode": "PROD-0006",
+      "name": "Cồn 90 độ",
+      "categoryId": "2",
+      "price": 20000,
+      "quantity": 50,
+      "dateAdded": "2024-09-30",
+      "description": ""
+    },
+    {
+      "id": "74df",
+      "productCode": "PROD-0010",
+      "name": "ZZZ",
+      "categoryId": "1",
+      "price": 300000,
+      "quantity": 100,
+      "dateAdded": "2024-09-27",
+      "description": ""
+    },
+    {
+      "id": "0088",
+      "productCode": "PROD-0011",
+      "name": "Tiffy",
+      "categoryId": "3",
+      "price": 10000,
+      "quantity": 150,
+      "dateAdded": "2024-09-20",
+      "description": "thuốc cảm cúm"
+    },
+    {
+      "id": "e573",
+      "productCode": "PROD-1112",
+      "name": "ABCD",
+      "categoryId": "1",
+      "price": 290000,
+      "quantity": 200,
+      "dateAdded": "2024-09-20",
+      "description": ""
+    },
+    {
+      "id": "1da7",
+      "productCode": "PROD-0007",
+      "name": "Nhiệt kế hồng ngoại",
+      "categoryId": "4",
+      "price": 750000,
+      "quantity": 30,
+      "dateAdded": "2024-09-24",
+      "description": ""
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Thực phẩm chức năng"
+    },
+    {
+      "id": "2",
+      "name": "Vật tư y tế"
+    },
+    {
+      "id": "3",
+      "name": "Dược phẩm"
+    }
+  ,
+    {
+      "id": "4",
+      "name": "Thiết bị y tế"
+    }
+  ]
+}
