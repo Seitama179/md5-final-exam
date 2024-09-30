@@ -71,15 +71,18 @@ function ProductCreate() {
             <div className="row justify-content-center">
                 <div className="col-lg-8 col-md-10">
                     <div className="card shadow-sm">
+
                         <div className="card-header bg-primary text-white">
-                            <h4 className="mb-0">Thêm Sản Phẩm Mới</h4>
+                            <h4 className="mb-0 text-center">Thêm Sản Phẩm Mới</h4>
                         </div>
+
                         <div className="card-body">
                             <Formik
                                 initialValues={form}
                                 onSubmit={saveProduct}
                                 validationSchema={validationSchema}
                             >
+
                                 <Form>
                                     <div className="mb-3">
                                         <label htmlFor="productCode" className="form-label">Mã Sản Phẩm:</label>
@@ -127,7 +130,6 @@ function ProductCreate() {
                                         <button type="submit" className="btn btn-primary">Thêm Mới</button>
                                         <Link to={"/products"} className="btn btn-danger">Huỷ</Link>
                                     </div>
-
                                 </Form>
                             </Formik>
                         </div>

@@ -2,8 +2,7 @@ import {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 import * as ProductService from "../service/ProductService";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {toast} from 'react-toastify'; // Nếu bạn dùng toast để thông báo lỗi
-
+import {toast} from 'react-toastify';
 
 function ProductList() {
     const [products, setProducts] = useState([]);
@@ -11,7 +10,7 @@ function ProductList() {
     const [name, setName] = useState("");
     const [categoryId, setCategoryId] = useState("");
     const [noResults, setNoResults] = useState(false);
-    const [loading, setLoading] = useState(false);
+    const [, setLoading] = useState(false);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -58,10 +57,12 @@ function ProductList() {
 
     return (
         <div className="container mt-5">
+
             <h2 className="mb-4 text-center text-light bg-primary">Danh sách sản phẩm</h2>
             <div className="mb-4">
-                <Link to="/create" className="btn btn-success">Thêm mới sản phẩm</Link>
+                <Link to="/create" className="btn btn-secondary">Thêm mới sản phẩm</Link>
             </div>
+
             <div className="row mb-4">
                 <div className="col-md-6">
                     <input
@@ -94,7 +95,7 @@ function ProductList() {
             ) : (
                 <div className="table-responsive">
                     <table className="table table-striped table-bordered">
-                        <thead className="thead-light">
+                        <thead className="thead-light text-center">
                         <tr>
                             <th scope="col">STT</th>
                             <th scope="col">Mã sản phẩm</th>

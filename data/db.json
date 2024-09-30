@@ -42,26 +42,6 @@
     },
     {
       "id": "5",
-      "productCode": "PROD-1111",
-      "name": "AAAA",
-      "categoryId": "1",
-      "price": 150000,
-      "quantity": 160,
-      "dateAdded": "2024-09-27",
-      "description": ""
-    },
-    {
-      "id": "6",
-      "productCode": "PROD-0009",
-      "name": "AAA",
-      "categoryId": "4",
-      "price": 10000000,
-      "quantity": 5,
-      "dateAdded": "2024-09-29",
-      "description": "máy"
-    },
-    {
-      "id": "7",
       "productCode": "PROD-0005",
       "name": "Aspirin",
       "categoryId": "3",
@@ -71,7 +51,7 @@
       "description": "thuốc"
     },
     {
-      "id": "8",
+      "id": "6",
       "productCode": "PROD-0006",
       "name": "Cồn 90 độ",
       "categoryId": "2",
@@ -81,17 +61,7 @@
       "description": ""
     },
     {
-      "id": "74df",
-      "productCode": "PROD-0010",
-      "name": "ZZZ",
-      "categoryId": "1",
-      "price": 300000,
-      "quantity": 100,
-      "dateAdded": "2024-09-27",
-      "description": ""
-    },
-    {
-      "id": "0088",
+      "id": "7",
       "productCode": "PROD-0011",
       "name": "Tiffy",
       "categoryId": "3",
@@ -101,17 +71,7 @@
       "description": "thuốc cảm cúm"
     },
     {
-      "id": "e573",
-      "productCode": "PROD-1112",
-      "name": "ABCD",
-      "categoryId": "1",
-      "price": 290000,
-      "quantity": 200,
-      "dateAdded": "2024-09-20",
-      "description": ""
-    },
-    {
-      "id": "1da7",
+      "id": "8",
       "productCode": "PROD-0007",
       "name": "Nhiệt kế hồng ngoại",
       "categoryId": "4",
